@@ -3,6 +3,31 @@
 CRM 데이터 AI 어시스턴트는 CRM 데이터의 스냅샷을 취해 CSV 파일로 내보낸 후, 이를 데이터프레임으로 변환하여 Text-to-SQL를 이용해 자연어를 SQL쿼리문으로 변환해주어 다양한 데이터 집계 및 조회를 수행할 수 있는 도구입니다. 보다 더 쉽게 고객 관계 관리 데이터를 더욱 효율적으로 분석하고 이해할 수 있도록 제작되었습니다.
 FastAPI를 이용하여 RESTful API형태로 제작되었습니다.  
 
+## **📍사용 기술 스택**
+- **프레임워크**: Fast API
+- **언어**: Python 3.11
+- **데이터베이스**: MySQL
+- **보안**: Spring Security, JWT
+- **API 클라이언트**: duckdb
+- **유효성 검사**: Pydantic
+- **문서화**: Swagger (springdoc-openapi)
+- **클라우드 서비스**: Google Cloud Platform
+- **컨테이너**: Docker
+
+---  
+ 
+## **📍아키텍처**  
+![crm_ai](https://github.com/user-attachments/assets/a0242164-f15b-43dd-bdc9-dbb9d0934c92)
+
+---
+
+## **📍역할**
+
+- AI 모델 서빙
+- DB 데이터 쿼리 작성
+
+---
+
 ## Framework
 ![text-to-sql](https://github.com/InnoSage/CRM-AI/assets/101381851/4adabeb7-2830-4b0f-b39c-439929958c72)  
 
